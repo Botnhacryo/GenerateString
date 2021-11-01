@@ -4,62 +4,57 @@ from pyrogram.types import InlineKeyboardButton
 class Data:
     # Start Message
     START = """
-Halo {}
+Xin chào {}
 
-Selamat datang {}
+Chào mừng {}
 
-Jika kamu tidak percaya bot ini, 
-1) gausah baca pesan ini
-2) blokir bot atau delete chat
+Nếu bạn không tin vào bot này,
+1) Đừng đọc tin nhắn này
+2) Chặn bot hoặc xóa trò chuyện
 
-Bot ini Bekerja Untuk Membantu Kamu Mendapatkan String Session Via Bot. Rekomendasi Jika Ingin Mengambil String Gunakan Akun Lain, Agar Tidak Delay. Terimakasih
-By @fckualot
+Bot này hoạt động để giúp bạn nhận được chuỗi phiên thông qua Bot. Khuyến nghị Nếu Bạn Muốn Lấy Chuỗi Sử Dụng Tài Khoản Khác, Để Không Bị Trì Hoãn. Cảm ơn bạn
     """
 
     # Home Button
     home_buttons = [
-        [InlineKeyboardButton("🔥 Start Generating Session 🔥", callback_data="generate")],
-        [InlineKeyboardButton(text="🏠 Kembali 🏠", callback_data="home")]
+        [InlineKeyboardButton("🔥 Bắt đầu tạo phiên 🔥", callback_data="generate")],
+        [InlineKeyboardButton(text="🏠 Trở lại 🏠", callback_data="home")]
     ]
 
     generate_button = [
-        [InlineKeyboardButton("🔥 Start Generating Session 🔥", callback_data="generate")]
+        [InlineKeyboardButton("🔥 Bắt đầu tạo phiên 🔥", callback_data="generate")]
     ]
 
     # Rest Buttons
     buttons = [
-        [InlineKeyboardButton("🔥 Start Generating Session 🔥", callback_data="generate")],
-        [InlineKeyboardButton("✨ Maintaned By ✨", url="https://t.me/fckualot")],
+        [InlineKeyboardButton("🔥 Bắt đầu tạo phiên 🔥", callback_data="generate")],
+        [InlineKeyboardButton("✨ Duy trì bởi ✨", url="https://t.me/rimuru737")],
         [
-            InlineKeyboardButton("Cara Menggunakan Saya ❔", callback_data="help"),
-            InlineKeyboardButton("🎪 About 🎪", callback_data="about")
+            InlineKeyboardButton("Làm thế nào để sử dụng tôi ❔", callback_data="help"),
+            InlineKeyboardButton("🎪 Về bot 🎪", callback_data="about")
         ],
-        [InlineKeyboardButton("♥ Info Bot Lain ♥", url="https://t.me/rioprojects")],
+        [InlineKeyboardButton("♥ Kênh Group ♥", url="https://t.me/yeusex")],
     ]
 
     # Help Message
     HELP = """
-✨ **Available Commands** ✨
+✨ **Các lệnh có sẵn** ✨
 
-/about - Tentang Bot ini
-/help - This Message
-/start - Mulai Bot
-/generate - Mulai Generating Session
-/cancel - Membatalkan process
-/restart - Membatalkan process
+/about - Thông tin về bot
+/help - Trợ giúp
+/start - Khởi động Bot
+/generate - Bắt đầu tạo phiên
+/cancel - Hủy bỏ quá trình
+/restart - Hủy bỏ quá trình
 """
 
     # About Message
     ABOUT = """
 **About This Bot** 
 
-Sebuah telegram bot untuk mengambil pyrogram dan telethon string session by @stringriobot
+Một bot điện tín để truy xuất các bản ghi âm và các phiên chuỗi telethon của @rimuru737
 
-Group Support : [Gabung](https://t.me/riogroupsupport)
+Group Support : [Yêu Sex](https://t.me/yeu69)
 
-Framework : [Pyrogram](docs.pyrogram.org)
-
-Language : [Python](www.python.org)
-
-Developer : @fckualot
+Channel Support : [Yêu 69](https://t.me/yeusex)
     """
